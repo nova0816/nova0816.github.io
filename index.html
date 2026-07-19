@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova's Web Apps Portal | Deployed GitHub Pages</title>
+  <meta name="description" content="Central Hub for all deployed web applications, interactive learning games, and voice-controlled tools by Nova.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <div class="bg-grid"></div>
+
+  <div class="app-container">
+    <!-- Header Section -->
+    <header class="hero-header">
+      <div class="user-badge">
+        <span class="pulse-dot"></span>
+        <span class="user-handle">@nova0816</span>
+        <span class="badge-tag">GitHub Pages Portal</span>
+      </div>
+      
+      <h1 class="hero-title">
+        Interactive Web Apps & <span class="gradient-text">Learning Games</span>
+      </h1>
+      
+      <p class="hero-subtitle">
+        Explore live web applications deployed directly on GitHub Pages — ranging from AI voice mazes and French language learning to fun vocabulary games!
+      </p>
+
+      <!-- Stats Bar -->
+      <div class="stats-bar">
+        <div class="stat-card">
+          <span class="stat-value" id="total-apps-count">5</span>
+          <span class="stat-label">Live Web Apps</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <span class="stat-value">100%</span>
+          <span class="stat-label">GitHub Pages</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <span class="stat-value">4</span>
+          <span class="stat-label">Categories</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Controls Section: Search & Category Filters -->
+    <section class="controls-section">
+      <div class="search-wrapper">
+        <i data-lucide="search" class="search-icon"></i>
+        <input type="text" id="search-input" placeholder="Search apps, features, or keywords..." autocomplete="off">
+        <button id="clear-search-btn" class="clear-btn hidden" aria-label="Clear Search">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <div class="category-tabs" id="category-tabs">
+        <button class="tab-btn active" data-category="all">
+          <i data-lucide="grid"></i> All Apps (<span id="cat-count-all">5</span>)
+        </button>
+        <button class="tab-btn" data-category="language">
+          <i data-lucide="languages"></i> Language Learning (<span id="cat-count-language">1</span>)
+        </button>
+        <button class="tab-btn" data-category="english">
+          <i data-lucide="book-open"></i> Story & Verbs (<span id="cat-count-english">2</span>)
+        </button>
+        <button class="tab-btn" data-category="kids">
+          <i data-lucide="gamepad-2"></i> Kids & Memory (<span id="cat-count-kids">1</span>)
+        </button>
+        <button class="tab-btn" data-category="voice">
+          <i data-lucide="mic"></i> Voice & AI (<span id="cat-count-voice">1</span>)
+        </button>
+      </div>
+    </section>
+
+    <!-- Apps Grid -->
+    <main class="apps-grid-section">
+      <div class="apps-grid" id="apps-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state hidden" id="empty-state">
+        <div class="empty-icon">
+          <i data-lucide="search-x"></i>
+        </div>
+        <h3>No apps found</h3>
+        <p>Try searching for a different keyword or resetting your category filter.</p>
+        <button class="reset-filter-btn" id="reset-filters-btn">
+          <i data-lucide="rotate-ccw"></i> Reset Filters
+        </button>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="portal-footer">
+      <div class="footer-content">
+        <p>© 2026 <strong>nova0816</strong> | Deployed with GitHub Pages</p>
+        <div class="footer-links">
+          <a href="https://github.com/nova0816" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="github"></i> GitHub Profile
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
