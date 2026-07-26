@@ -1,6 +1,18 @@
 // Nova's Web Apps Database
 const APPS_DATA = [
   {
+    id: "MonsterSnackShop",
+    title: "Monster Snack Shop 👾 | Dialogue Cafe Game",
+    category: "english",
+    icon: "👾",
+    description: "Interactive ESL functional dialogue cafe game for kids! Serve hungry monsters delicious treats using natural English phrases and voice audio.",
+    url: "https://nova0816.github.io/MonsterSnackShop/",
+    repoUrl: "https://github.com/nova0816/MonsterSnackShop",
+    tags: ["ESL", "Dialogue Game", "Kids", "Audio", "Interactive Cafe"],
+    accent: "linear-gradient(135deg, #ff6b6b, #ff8e53)",
+    glow: "rgba(255, 107, 107, 0.25)"
+  },
+  {
     id: "LearnFrench",
     title: "Élan - Interactive French Learning PWA",
     category: "language",
@@ -214,6 +226,9 @@ function updateCategoryCounts() {
     const el = document.getElementById(`cat-count-${cat}`);
     if (el) el.textContent = counts[cat];
   });
+
+  const totalAppsEl = document.getElementById("total-apps-count");
+  if (totalAppsEl) totalAppsEl.textContent = APPS_DATA.length;
 }
 
 // Utility: Escape HTML
