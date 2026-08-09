@@ -1,6 +1,18 @@
 // Nova's Web Apps Database
 const APPS_DATA = [
   {
+    id: "FunFactComic",
+    title: "FunFact Animal Comics 🦩 | Interactive ESL Comics",
+    category: "english",
+    icon: "🦩",
+    description: "4-panel interactive educational comics for ESL kids! Tap floating speech pins to hear 100% adorable child neural voices, discover real animal facts, and play voiced comprehension quizzes.",
+    url: "https://nova0816.github.io/FunFactComic/",
+    repoUrl: "https://github.com/nova0816/FunFactComic",
+    tags: ["ESL", "Kids Comics", "Kid Neural Voices", "Karaoke Words", "Quizzes", "Storybook"],
+    accent: "linear-gradient(135deg, #FF6B8B, #FECA57)",
+    glow: "rgba(255, 107, 139, 0.35)"
+  },
+  {
     id: "MonsterSnackShop",
     title: "Monster Snack Shop 👾 | Dialogue Cafe Game",
     category: "english",
