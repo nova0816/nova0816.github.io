@@ -1,6 +1,18 @@
 // Nova's Web Apps Database
 const APPS_DATA = [
   {
+    id: "PhonicGame",
+    title: "Minimal Pair Duel ⚔️ | ESL Phonics Arcade Game",
+    category: "english",
+    icon: "⚔️",
+    description: "Interactive ESL sound discrimination game! Train your ear on tricky English minimal pairs (ship vs sheep, bat vs bet, light vs right) with retro audio SFX and iPad touch controls.",
+    url: "https://nova0816.github.io/PhonicGame/",
+    repoUrl: "https://github.com/nova0816/PhonicGame",
+    tags: ["ESL", "Phonics", "Minimal Pairs", "Audio Duel", "Speech API", "iPad / Kids"],
+    accent: "linear-gradient(135deg, #00f0ff, #ff2a85)",
+    glow: "rgba(0, 240, 255, 0.35)"
+  },
+  {
     id: "FunFactComic",
     title: "FunFact Animal Comics 🦩 | Interactive ESL Comics",
     category: "english",
