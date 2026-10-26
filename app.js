@@ -95,6 +95,18 @@ const APPS_DATA = [
     tags: ["Voice Control", "Web Speech API", "Cyberpunk", "Maze Game", "Fun"],
     accent: "linear-gradient(135deg, #06b6d4, #0284c7)",
     glow: "rgba(6, 182, 212, 0.25)"
+  },
+  {
+    id: "CarGame",
+    title: "Car Rider ESL | Motion & Tilt Listening Game",
+    category: "english",
+    icon: "🚗",
+    description: "In-car English listening comprehension game for 7-year-olds! Answer listening questions hands-free using steering-wheel tilts, shakes, or flips with spoken voice audio feedback.",
+    url: "https://nova0816.github.io/CarGame/",
+    repoUrl: "https://github.com/nova0816/CarGame",
+    tags: ["ESL", "In-Car Audio", "Motion & Tilt", "Speech Synthesis", "Hands-Free", "Kids"],
+    accent: "linear-gradient(135deg, #38bdf8, #2563eb)",
+    glow: "rgba(56, 189, 248, 0.35)"
   }
 ];
 
