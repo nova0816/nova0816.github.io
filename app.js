@@ -101,7 +101,7 @@ const APPS_DATA = [
     title: "Car Rider ESL | Motion & Tilt Listening Game",
     category: "english",
     icon: "🚗",
-    description: "In-car English listening comprehension game for 7-year-olds! Answer listening questions hands-free using steering-wheel tilts, shakes, or flips with spoken voice audio feedback.",
+    description: "In-car pure audio listening game featuring ESL listening drills and Traditional Chinese 九九乘法 multiplication tables! Answer hands-free using steering-wheel tilts.",
     url: "https://nova0816.github.io/CarGame/",
     repoUrl: "https://github.com/nova0816/CarGame",
     tags: ["ESL", "In-Car Audio", "Motion & Tilt", "Speech Synthesis", "Hands-Free", "Kids"],
