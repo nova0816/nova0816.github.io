@@ -1,6 +1,18 @@
 // Nova's Web Apps Database
 const APPS_DATA = [
   {
+    id: "MultiplicationTable",
+    title: "9x9 Multiplication Adventure 🌟 | Kids Math Games",
+    category: "kids",
+    icon: "🔢",
+    description: "5 fun interactive 9x9 multiplication games designed for 7-year-olds! Features custom multiplication tables (pick 2, 3... 9), Feeding Monster, Jungle Frog, Potion Brewer, Space Defense, and Card Duel with touch controls.",
+    url: "https://nova0816.github.io/MultiplicationTable/",
+    repoUrl: "https://github.com/nova0816/MultiplicationTable",
+    tags: ["Math", "Multiplication", "9x9", "Kids Games", "iPad / Mobile", "Web Audio"],
+    accent: "linear-gradient(135deg, #0284c7, #f59e0b)",
+    glow: "rgba(2, 132, 199, 0.35)"
+  },
+  {
     id: "PhonicGame",
     title: "Minimal Pair Duel ⚔️ | ESL Phonics Arcade Game",
     category: "english",
