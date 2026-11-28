@@ -61,6 +61,18 @@ const APPS_DATA = [
     glow: "rgba(236, 72, 153, 0.25)"
   },
   {
+    id: "LearnJapanese",
+    title: "言の葉 Kotoba 🇯🇵 | Interactive Japanese Learning App",
+    category: "language",
+    icon: "🌸",
+    description: "Conversational Japanese learning web app featuring 5 real-life scenario units (hotel, transit delay, dining, tax-free shopping, lost & found), dual-character male & female neural voices (Keita ✕ Nanami), furigana ruby annotations, 3D flashcards, and speech pronunciation scoring.",
+    url: "https://nova0816.github.io/LearnJapanese/",
+    repoUrl: "https://github.com/nova0816/LearnJapanese",
+    tags: ["PWA", "Japanese", "Dual Voices", "Furigana Ruby", "Flashcards", "Speech API"],
+    accent: "linear-gradient(135deg, #8b5cf6, #ec4899)",
+    glow: "rgba(139, 92, 246, 0.35)"
+  },
+  {
     id: "MemoryGame",
     title: "Cute Memory Match - Learn to Read!",
     category: "kids",
