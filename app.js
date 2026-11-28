@@ -65,10 +65,10 @@ const APPS_DATA = [
     title: "言の葉 Kotoba 🇯🇵 | Interactive Japanese Learning App",
     category: "language",
     icon: "🌸",
-    description: "Conversational Japanese learning web app featuring 5 real-life scenario units (hotel, transit delay, dining, tax-free shopping, lost & found), dual-character male & female neural voices (Keita ✕ Nanami), furigana ruby annotations, 3D flashcards, and speech pronunciation scoring.",
+    description: "Conversational Japanese learning web app featuring 11 real-life scenario units & 66 sentences: Dates & Times foundation, hotel, transit delay, dining, tax-free shopping, lost & found, plus Nagoya family travel edition (Legoland, Science Museum, Suzuka Circuit, Express Trains, Hitsumabushi dining). Dual-character neural voices (Keita ✕ Nanami), furigana ruby annotations, 3D flashcards, and speech scoring.",
     url: "https://nova0816.github.io/LearnJapanese/",
     repoUrl: "https://github.com/nova0816/LearnJapanese",
-    tags: ["PWA", "Japanese", "Dual Voices", "Furigana Ruby", "Flashcards", "Speech API"],
+    tags: ["PWA", "Japanese", "11 Units", "Nagoya Family Trip", "Dates & Times", "Dual Voices", "Furigana Ruby", "Flashcards", "Speech API"],
     accent: "linear-gradient(135deg, #8b5cf6, #ec4899)",
     glow: "rgba(139, 92, 246, 0.35)"
   },
